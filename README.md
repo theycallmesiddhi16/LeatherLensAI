@@ -4,8 +4,8 @@ LeatherLens is an AI-based leather texture classification system designed to pro
 
 The project combines traditional texture descriptors and deep learning features to build a robust hybrid classification model.
 
-## URL1 : https://bca62620-aa3e-4aea-b11f-b093730acd94-00-24o10r4e2dbvo.worf.replit.dev/
-## URL2 : https://d8de23a8d76dbc247c.gradio.live/
+# URL1 : https://bca62620-aa3e-4aea-b11f-b093730acd94-00-24o10r4e2dbvo.worf.replit.dev/
+# URL2 : https://d8de23a8d76dbc247c.gradio.live/
 
 ---
 

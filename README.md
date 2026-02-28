@@ -1,96 +1,73 @@
- ## 🐊 LeatherLens – AI for Ethical Fashion & Wildlife Protection
+# Welcome to your Lovable project
 
-LeatherLens is an AI-based leather texture classification system designed to promote transparency in the exotic leather trade. It helps identify whether a leather product belongs to regulated or exotic species using image-based texture analysis.
+## Project info
 
-The project combines traditional texture descriptors and deep learning features to build a robust hybrid classification model.
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
----
+## How can I edit this code?
 
-## 🎯 Problem Statement
+There are several ways of editing your application.
 
-Exotic leather products are widely used in luxury fashion. However, consumers often cannot distinguish between regulated species and non-exotic leather visually. This lack of transparency contributes to illegal wildlife trade and uninformed purchasing decisions.
+**Use Lovable**
 
-LeatherLens aims to bridge this gap using AI-powered texture classification.
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
----
+Changes made via Lovable will be committed automatically to this repo.
 
-## 🧠 Model Architecture
+**Use your preferred IDE**
 
-The system uses a hybrid feature extraction pipeline:
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-* Local Binary Patterns (LBP) – captures fine-grained texture details
-* Gray Level Co-occurrence Matrix (GLCM) – captures spatial pixel relationships
-* Gabor Filters – captures directional and frequency patterns
-* EfficientNetB0 (CNN embeddings) – captures deep visual features
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-These features are fused and processed using:
+Follow these steps:
 
-* StandardScaler (feature normalization)
-* PCA (dimensionality reduction)
-* XGBoost (multi-class classification)
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
----
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-## 📊 Model Evaluation
+# Step 3: Install the necessary dependencies.
+npm i
 
-The model is evaluated using:
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-* Precision
-* Recall
-* F1-score
-* Confusion Matrix
-* PCA Variance Retention Analysis
+**Edit a file directly in GitHub**
 
-The hybrid approach improves classification robustness and reduces class bias.
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
----
+**Use GitHub Codespaces**
 
-## 🖥️ Tech Stack
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-### Frontend
+## What technologies are used for this project?
 
-* React 18 + TypeScript
-* Tailwind CSS
-* Vite 5
-* Framer Motion
-* PWA Support (vite-plugin-pwa)
-* Netlify (Deployment)
-* i18next & react-i18next
-* React-router-dom v6
+This project is built with:
 
-### Backend
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-* Python
-* Flask
-* OpenCV
-* Scikit-learn
-* Scikit-image
-* XGBoost
-* TensorFlow / Keras
-* Render (Deployment)
+## How can I deploy this project?
 
----
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
-## 🌍 Social Impact
+## Can I connect a custom domain to my Lovable project?
 
-LeatherLens supports:
+Yes, you can!
 
-* Wildlife conservation awareness
-* Ethical consumer decision-making
-* Transparency in fashion supply chains
-* Potential integration with regulatory systems (CITES-based monitoring)
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-The system is designed to be scalable and extensible to additional species.
-
----
-
-## 🚀 Future Scope
-
-* Integration with blockchain-based supply chain tracking
-* Real-time e-commerce product verification
-* Expanded dataset for additional species
-* Improved explainability using visual heatmaps
-
----
-
-
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)

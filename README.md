@@ -1,11 +1,11 @@
-## URL1 : https://bca62620-aa3e-4aea-b11f-b093730acd94-00-24o10r4e2dbvo.worf.replit.dev/
-## URL2 : https://d8de23a8d76dbc247c.gradio.live/
-
 ## 🐊 LeatherLens – AI for Ethical Fashion & Wildlife Protection
 
 LeatherLens is an AI-based leather texture classification system designed to promote transparency in the exotic leather trade. It helps identify whether a leather product belongs to regulated or exotic species using image-based texture analysis.
 
 The project combines traditional texture descriptors and deep learning features to build a robust hybrid classification model.
+
+## URL1 : https://bca62620-aa3e-4aea-b11f-b093730acd94-00-24o10r4e2dbvo.worf.replit.dev/
+## URL2 : https://d8de23a8d76dbc247c.gradio.live/
 
 ---
 

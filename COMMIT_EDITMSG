@@ -1,0 +1,10 @@
+Add multi-language support and improve user interface
+
+Integrate i18next for multi-language functionality, including Hindi, Marathi, and Gujarati. Remove the research background section from the About page and enhance the overall UI with translated text and a language switcher.
+
+Replit-Commit-Author: Agent
+Replit-Commit-Session-Id: cce46d70-a8ca-4d05-928f-c9bfa0c36f61
+Replit-Commit-Checkpoint-Type: full_checkpoint
+Replit-Commit-Event-Id: ca6e3eca-c696-47d7-88b0-9234d893a143
+Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/bca62620-aa3e-4aea-b11f-b093730acd94/cce46d70-a8ca-4d05-928f-c9bfa0c36f61/jsyywJo
+Replit-Helium-Checkpoint-Created: true
